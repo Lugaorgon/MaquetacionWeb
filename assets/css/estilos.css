@@ -107,6 +107,7 @@ main {
   width: 80%;
   margin: auto;
   display: block;
+  border-radius: 10px /20px;
 }
 .nosotros {
   background-color: #b45008;
@@ -153,4 +154,8 @@ footer {
 footer ul {
   margin: 0;
   padding: 0;
+}
+
+footer {
+  padding: 10px;
 }
