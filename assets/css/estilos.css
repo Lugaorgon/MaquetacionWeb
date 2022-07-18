@@ -138,8 +138,22 @@ main {
   grid-template-columns: 60% 40%;
   grid-template-rows: 200px 200px;
 }
+.grilla div:first-child {
+  background-image: url(../img/gym-01.JPG);
+  background-position: -140px 0px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.grilla div:nth-child(2){
+  background-image: url(../img/gym-02.JPG);
+}
+.grilla div:nth-child(3){
+  background-image: url(../img/gym-03.JPG);
+}
 .grilla div {
-  background-color: red;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*-----------------Article----------------*/
 article {
@@ -177,7 +191,9 @@ footer ul {
   margin: 0;
   padding: 0;
 }
-
 footer {
   padding: 10px;
+}
+footer ul:first-of-type, footer p:first-child {
+  font-weight: bold;
 }
