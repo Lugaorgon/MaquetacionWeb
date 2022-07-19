@@ -22,7 +22,11 @@ body {
   position: fixed;
   left: 97%;
   top: 88%;
-  background-image: url(../img/chat.png);
+  background-image: linear-gradient(
+      rgba(226, 127, 14, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(../img/chat.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 50px;
